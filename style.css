@@ -1,0 +1,36 @@
+
+
+@keyframes text {
+  0% {
+		opacity: 0;
+    letter-spacing: 500px;
+		text-shadow: 0 0 50px #fff;
+	}
+  50% {
+    letter-spacing: 50px
+  }
+	100% {
+		opacity: 0.8;
+    letter-spacing: 10px;
+		text-shadow: 0 0 1px #fff;
+	}  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fascinate Inline', cursive;
+  background: #000;
+  color: #fff;
+  padding-top: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#text {
+  font-size: 50px;
+  text-transform: uppercase;
+  animation: text 4s linear forwards;
+}
